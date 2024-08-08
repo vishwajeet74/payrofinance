@@ -1,0 +1,123 @@
+.bg_purple{
+   background: #653494;
+    color: #fff;
+}
+.less_width{
+    max-width: 1060px;
+    width: 100%;
+    margin: auto;
+}
+.border_radius_5{
+    border-radius: 1.3rem;
+    overflow: hidden;
+}
+
+.purple_heading h1,
+.purple_heading h2,
+.purple_heading h3{
+    color: #653494;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.industry_single h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.industry_single h2{
+    font-size: 24px;
+    font-family: 'Causten Semi';
+}
+.industry_single h3{
+    font-size: 20px;
+    font-family: 'Causten Semi';
+}
+.industry_single {
+    color: #1B284B;
+    font-size: 16px;
+}
+.industry_single .intro-text h1 span {
+   position: relative;
+}
+
+.industry_single .intro-text h1 span:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../images/vector-2.svg) no-repeat center;
+    background-size: 100%;
+}
+.purple_bg_block .img-box {
+    border-radius: 20px;
+    overflow: hidden;
+}
+.industry_single .img-box img {
+    width: 100%;
+}
+.why_choose .content-box em{
+    color: #6377AB;
+    font-size: 18px;
+}
+.why_choose .content-box ul{
+    padding-left: 18px;
+    list-style-image: url("../images/list-bullet.svg");
+}
+.why_choose .content-box ul strong{
+    color: #653494;
+}
+@media screen and (min-width: 767.98px) {
+    .industry_single h1{
+        font-size: 40px;
+
+    }
+    .industry_single h2{
+        font-size: 30px;
+
+    }
+    .industry_single h3{
+        font-size: 28px;
+    }
+    .purple_bg_block .img-box {
+        border-radius: 20px 0 0 20px;
+        float: right;
+        max-width: 610px;
+    }
+}
+
+@media screen and (min-width: 1199.98px) {
+    .industry_single h1{
+        font-size: 66px;
+    }
+    .industry_single h2{
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .industry_single h3{
+        font-size: 30px;
+    }
+    section.pb-md-6{
+        padding-bottom: 4rem !important;
+    }
+    .why_choose .content-box ul li{
+        margin-bottom: 10px;
+    }
+    .industry_single .help_block h2 {
+        font-size: 60px;
+        font-weight: 700;
+        max-width: 800px;
+        text-align: center;
+        margin: auto auto 30px;
+        line-height: 1;
+    }
+
+    .industry_single .help_block p {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+    .image_and_text .content-box {
+        padding-left: 30px;
+    }
+}
