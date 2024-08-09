@@ -7778,5 +7778,116 @@ header.dark-purple-header .header-top-bar-block {
     font-size: 30px;
   }
 }
+.accordion-header.js-accordion-header.maTrigger {
+  display: flex;
+  background: #fff;
+  / align-content: stretch; /
+  justify-content: space-between;
+  border-radius: 15px;
+  margin: 15px 0px;
+}
+
+ul.accordion.js-accordion.mAccord {
+  width: 100%;
+  position: relative;
+  margin: 0 auto 20px;
+  padding: 0;
+  display: table;
+  list-style-type: none;
+}
+
+.accordion-body.js-accordion-body.maContent {
+  overflow: hidden;
+  width: 100%;
+  line-height: 1.8;
+  display: none;
+  color: #282828;
+  position: relative;
+  float: left;
+  padding: 0px 40px 25px;
+  background: #fff;
+  border-radius: 15px;
+  margin-top: -35px;
+  margin-bottom: 10px;
+}
+
+.faqs-dtls ul {
+  padding: 10px;
+  margin-top: -20px;
+}
+
+.accordion-header.js-accordion-header.maTrigger {
+  width: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-size: 1.8em;
+  font-weight: normal;
+  line-height: 1.2;
+  background: #fff;
+  border-bottom: 0px solid #ccc;
+  color: #282828;
+  position: relative;
+  float: left;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #1B284B;
+  font-family: 'Causten';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 26px 70px 24px 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.pros-cons-boxs {
+  max-width: 630px;
+}
+
+.wy-request-list {
+  padding: 30px 20px;
+}
+
+.fhy-acc-list {
+  padding: 30px 20px;
+}
+
+.wy-request-box {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.fhy-acc-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.dot {
+  display: inline-flex;
+  height: 15px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -2px;
+}
+
+.dot:before {
+  content: '';
+  height: 3px;
+  width: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #1B284B;
+}
 
 /****Partner Landing page css****/
